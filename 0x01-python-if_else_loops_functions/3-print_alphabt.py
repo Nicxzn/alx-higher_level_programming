@@ -5,4 +5,4 @@ for ascii_value in range( 97, 123):
     # Check if letter is not 'q' and not 'e'
     if letter != 'q' and letter != 'e':
         # Print the letter without newline
-        print(letter, end='')
+        print("{}"letter, end='')
