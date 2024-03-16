@@ -1,4 +1,4 @@
 #!/usr/bin/python3
-for number in range(99):
-    print(f"{number:02d}", end=",")
-print(f"{number + 1:d}")
+for a in range(0, 99):
+    print("{:02d}".format(a), end=", ")
+print("{:d}".format(a + 1))
