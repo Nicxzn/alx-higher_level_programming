@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-for tens_digit in range(10):
-    for units_digit in range(tens_digit + 1, 10):
-        print("{:02d}, ".format(tens_digit * 10 + units_digit), end="")
-print()
+for a in range(0, 8):
+    for b in range(a + 1, 10):
+        print("{:d}{:d}".format(a, b), end=", ")
+print("{:d}{:d}".format(a + 1, b))
